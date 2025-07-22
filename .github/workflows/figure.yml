@@ -1,4 +1,4 @@
-name: Run MATLAB
+name: Run MATLAB (figure)
 on:
   workflow_dispatch: {}
   push: {}
