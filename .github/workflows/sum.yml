@@ -16,5 +16,5 @@ jobs:
       - name: Run MATLAB command
         uses: matlab-actions/run-command@v2
         with:
-          command: plot(1)
+          command: sum(1:10)
             

@@ -1,4 +1,4 @@
-name: Run MATLAB
+name: Run MATLAB (canvas)
 on:
   workflow_dispatch: {}
   push: {}
@@ -16,5 +16,5 @@ jobs:
       - name: Run MATLAB command
         uses: matlab-actions/run-command@v2
         with:
-          command: plot(1)
+          command: gcf().getCanvas()
             
